@@ -1,0 +1,310 @@
+body {
+    background-color: beige;
+}
+
+/*----------------------------------------*/
+
+/* BARRA DE NAVEGACIÓN */
+.headernav {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.linkp {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.icononavegacion {
+    font-size: 30px;
+    margin-right: 25px;
+}
+
+.imagennavegacion {
+    height: 80px;
+    width: 80px;
+}
+
+/*----------------------------------------*/
+
+/* CARRITO COMPRAS */
+
+.carritoc {
+    display: none;
+}
+
+.headernav .botoncarrito {
+    display: none;
+}
+
+.carritoc li {
+    list-style: none;
+
+}
+
+.headernav i:hover>.carritocompras {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: 5px;
+    background-color: beige;
+    z-index: 999;
+    border-radius: 5px;
+}
+
+.headernav i:hover .carritoc {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10px 0 10px;
+    border-bottom: solid thin black;
+    font-weight: bold;
+    font-family: Glass Antiqua;
+}
+
+.headernav i:hover .carritocompras>.botoncarrito {
+    display: block;
+    width: 90%;
+    padding: 5px;
+    margin: 10px auto;
+    background-color: tan;
+    border: solid thin black;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+.headernav i:hover .carritocompras>.botoncarrito:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/*----------------------------------------*/
+
+/* CUERPO HOME */
+
+.imagenhome {
+    padding: 25px;
+    align-content: center;
+    border-radius: 30px;
+    height: 500px;
+    width: 1200px;
+}
+
+.textohome {
+    text-align: start;
+    padding-bottom: 20px;
+    font-family: 'Glass Antiqua';
+    font-size: xx-large;
+}
+
+
+
+/*----------------------------------------*/
+
+/* PRODUCTOS */
+
+.contenedorimagen {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.imagenboton {
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    margin: 10px;
+
+}
+
+.imagenboton:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.textoimagenb {
+    position: absolute;
+    color: white;
+    font-family: Glass Antiqua;
+    font-size: 50px;
+    top: 30%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.imagenl {
+    height: 300px;
+    width: 400px;
+}
+
+.imagentaza {
+    height: 300px;
+    width: 300px;
+}
+
+.imagenserie {
+    height: 400px;
+    width: 300px;
+}
+
+.botonproducto {
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.imagenp {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.imagenc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+/*----------------------------------------*/
+
+/* PREGUNTAS FRECUENTES */
+
+.preguntas {
+    padding: 10px;
+    font-family: Glass Antiqua;
+    font-size: 20px;
+}
+
+/*----------------------------------------*/
+
+/* FORMULARIO */
+
+.form {
+    text-align: center;
+    padding: 50px;
+}
+
+.botonform {
+    width: 100px;
+}
+
+.formulario {
+    margin: 15px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-family: Glass Antiqua;
+    font-size: 25px;
+}
+
+.areatexto {
+    height: 70px;
+    width: 500px;
+}
+
+.input:focus {
+    background-color: orange;
+}
+
+/*----------------------------------------*/
+
+/* INICIO SESIÓN */
+
+.parrafoi {
+    font-family: Glass Antiqua;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.formu {
+    text-align: center;
+    border: 2px black solid;
+    width: fit-content;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.botonproducto2 {
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    font-size: large;
+}
+
+.input {
+    width: 500px;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/*----------------------------------------*/
+
+/* Footer */
+
+.mapa {
+    width: 150px;
+    height: 150px;
+
+}
+
+.boton {
+    border-radius: 10px;
+    background-color: tan;
+    cursor: pointer;
+    font-size: small;
+    margin: 10px;
+    font-family: cursive;
+}
+
+.boton:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.boton:focus {
+    background-color: orange;
+}
+
+.columna1,
+.columna2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.icononavegacion {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.linkfooter {
+    padding: 5px;
+}
